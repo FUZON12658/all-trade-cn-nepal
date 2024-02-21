@@ -1,0 +1,31 @@
+.proceedToCheckoutPageContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 70vh;
+}
+.calculatedPriceDiv{
+  display: flex;
+  justify-content: space-between;
+  gap: 20vw;
+}
+.paymentButtonsProceed{
+  display: flex;
+  gap: 20px;
+}
+.payWith{
+  padding:10px 10px 10px 10px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 24px;
+  border: none;  
+}
+.Esewa{
+  background: rgb(118, 163, 27);
+  color:white;
+}
+.Khalti{
+  background-color: rgb(126, 6, 126);
+  color:white;
+}

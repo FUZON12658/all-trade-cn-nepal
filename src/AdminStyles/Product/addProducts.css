@@ -1,0 +1,89 @@
+.addProductMainFormContainer{
+  width: 100vw;
+  min-height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20vh;
+}
+
+.formWrapper {
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); 
+  backdrop-filter: blur(5px);
+  padding: 40px 20px 20px 20px;
+}
+
+.formTitle{
+  text-align: center;
+}
+.productFormEntry{
+  border: none;
+  border-bottom: 1px solid gray;
+  background: none;
+  outline: none;
+  margin: 20px;
+  width: max(20vw, 240px);
+  height: 50px;
+  font-size: 1em;
+}
+.addAnother{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 500px;
+}
+
+.submitBtn{
+  margin-bottom: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.formSubmitBtn{
+  display: flex;
+  background: black;
+  padding: 15px 20px 15px 20px;
+  border: 2px solid black;
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 100px;
+  user-select: none;
+  cursor: pointer;
+}
+.formSubmitBtn:active{
+  background: white;
+  color: black;
+}
+.formSubmitBtn:disabled{
+  opacity: 0;
+}
+
+.subForm{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  column-gap: 10px;
+}
+@media screen and (min-width:1030px) and (max-height:1040px) {
+  .addProductMainFormContainer{
+    margin-top: 200px;
+    margin-bottom: 400px;
+  }
+}
+@media screen and (max-width:1025px){
+  .addProductMainFormContainer{
+    margin-top: 200px;
+    margin-bottom: -200px;
+  }
+}
+
+
+
+
+

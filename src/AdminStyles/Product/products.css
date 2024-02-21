@@ -1,0 +1,72 @@
+.MyProductsContainer{
+  min-height: 80vh;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.searchBar{
+  width: 70vw;
+  height: 50px;
+  padding: 15px;
+}
+.searchBarContainer{
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.magnify-icon{
+  zoom: 200%;
+  cursor: pointer;
+}
+.magnify-icon:hover{
+  opacity: 0.6;
+}
+.magnify-icon:active{
+  opacity: 0.4;
+}
+
+.imageDisplayDiv{
+  margin-top: 50px;
+  display: flex;
+}
+.allTypesDisplayDiv{
+  margin-top: 20px;
+  display: flex;
+  gap: 30px;
+}
+.imagePackage{
+  position: relative;
+}
+.typePackage{
+  position: relative;
+}
+.typeDeleteOrAddFrameButtons{
+  box-shadow: 5px 10px 50px gray;
+  padding:6px;
+  border-radius: 10px;
+  position:absolute;
+  display: flex;
+  right: 0;
+  top: -20px;
+  gap: 8px;
+  cursor: pointer;
+  background: white;
+}
+.searchedResultsDiv{
+  width: 50vw;
+  padding: 10px;
+  border-radius: 15px;
+  margin-top: 20px;
+  cursor: pointer;
+  border: 2px solid lightgray;
+}
+.searchedResultsDiv:hover{
+  box-shadow: 5px 10px 25px black;
+}
+
+.hidden{
+  display:none;
+}

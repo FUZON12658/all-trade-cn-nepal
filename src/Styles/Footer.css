@@ -1,0 +1,240 @@
+/* css for footer section  */
+.forScreenLessThanTwelveHundredPixels{
+    display: none;
+}
+.bottom_rectangle {
+    position: relative;
+    width: 100vw;
+    background: var(--black-color);
+    display: block;
+    z-index:1;
+    bottom: 0px;
+}
+
+.headings{
+    display: flex;
+    align-items: start;
+    gap: 5em;
+    user-select: none;
+}
+.address_footer_for_mobile, .call_to_action_for_mobile{
+    display: none;
+}
+.address{
+    display: inline;
+    flex: 1;
+}
+.call_to_action{
+    display: inline;
+    flex: 0.7;
+}
+.footerQuickLinkChild{
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+.aboutUsContent{
+    color: white;
+    user-select: none;
+}
+.Quick_Links{
+    display: inline;
+    flex: 0.8;
+    margin-right:auto;
+    margin-left:3.03%;
+}
+.Quick_Links_Body{
+    display: flex;
+    gap: 30px;
+}
+
+.aboutUs{
+    display: inline;
+    flex: 0.8;
+    margin-right: auto;
+    margin-left: 3.03%;
+}
+.address{
+    margin-left:auto;
+}
+
+.headingsH1{
+    color:white;
+    user-select: none;
+}
+.quickLinksAnchor{
+    color:white;
+    text-decoration: none;
+}
+.socialIconsLargeScreen{
+    margin-top:30px;
+    zoom: 10%;
+    filter: grayscale(100%);
+    user-select: none;
+}
+
+.socialIconsLargeScreen:hover{
+    filter: none;
+}
+
+.socialSmallScreenContainer{
+    display: flex;
+    position: static;
+}
+.socialIconsSmallScreen{
+    margin-top:30px;
+    width: 50px;
+    height: 50px;
+    filter: grayscale(100%);
+}
+.socialIconsSmallScreen:hover{
+    filter: none;
+}
+.for-footer{
+    width: 130px;
+    height: 70px;
+    padding: 10px 15px;
+    font-size: 17px;
+    font-family:'Poppins',sans-serif;
+    font-weight: 800;
+    border-radius: 25px;
+    background:radial-gradient(#f9d349,20%,#d57612);;
+    /*background: radial-gradient(#f9d349,20%,#d57612);*/
+    color: white;
+    user-select: none;
+}
+@media screen and (max-width: 2100px) {
+    .footerQuickLinkChild{
+        font-size: 17px;
+    }
+    .aboutUsContent{
+        font-size: 17px;
+    }
+    .headings{
+        gap: 17px;
+    }
+    .call_to_action{
+        display: inline;
+        flex: 0.5;
+    }
+    .for-footer{
+        width: 100px;
+        height: 50px;
+        padding: 5px 10px;
+        font-size: 13px;
+        font-family:'Poppins',sans-serif;
+        font-weight: 400;
+        border-radius: 15px;
+        background:radial-gradient(#f9d349,20%,#d57612);;
+        /*background: radial-gradient(#f9d349,20%,#d57612);*/
+    }
+}
+@media screen and (max-width: 1730px) {
+    .footerQuickLinkChild{
+        font-size: 15px;
+    }
+    .aboutUsContent{
+        font-size: 15px;
+    }
+    .headings{
+        gap: 15px;
+    }
+}
+@media screen and (max-width: 1600px) {
+    .footerQuickLinkChild{
+        font-size: 13px;
+    }
+    .aboutUsContent{
+        font-size: 13px;
+    }
+    .headings{
+        gap: 13px;
+    }
+}
+@media screen and (max-width: 1500px) {
+    .footerQuickLinkChild{
+        font-size: 11px;
+    }
+    .aboutUsContent{
+        font-size: 11px;
+    }
+    .headings{
+        gap: 11px;
+    }
+    .call_to_action{
+        display: inline;
+        flex: 0.6;
+    }
+}
+@media screen and (max-width: 1320px) {
+    .footerQuickLinkChild{
+        font-size: 10px;
+    }
+    .aboutUsContent{
+        font-size: 10px;
+    }
+    .headings{
+        gap: 10px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .forScreenGreaterThanTwelveHundredPixels{
+        display: none;
+    }
+    .forScreenLessThanTwelveHundredPixels{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .Quick_Links, .aboutUs, .address, .call_to_action{
+        flex: 1;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .forScreenGreaterThanTwelveHundredPixels{
+        display: none;
+    }
+    .forScreenLessThanTwelveHundredPixels{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .Quick_Links, .aboutUs, .address, .call_to_action{
+        flex: 1;
+    }
+}
+@media screen and (max-width: 645px) {
+    .forScreenGreaterThanTwelveHundredPixels{
+        display: flex;
+    }
+    .headings{
+        all:unset;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .forScreenLessThanTwelveHundredPixels{
+        display: none;
+    }
+    .Quick_Links,.aboutUs,.call_to_action,.address{
+        display: block;
+        margin-left: 50px;
+        margin-right: 50px;
+        flex: 1;
+    }
+    .headingsH1{
+        text-align: center;
+        color:white;
+        user-select: none;
+    }
+    .footerQuickLinkChild{
+        font-size: 12px;
+    }
+    .Quick_Links_Body{
+        display: flex;
+        flex-direction: column;
+    }
+}

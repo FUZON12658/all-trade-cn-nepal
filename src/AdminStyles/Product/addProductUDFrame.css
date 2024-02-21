@@ -1,0 +1,88 @@
+.editableDetails{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 30px;
+  border: 2px solid black;
+  box-shadow: 5px 10px 50px black;
+  padding: 20px;
+  border-radius: 30px;
+}
+.editableDetailsBlock{
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.editableTitleBlock{
+  display: flex;
+  margin-bottom: 50px;
+}
+.productDetailsTitleBlock{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.editProductFormEntryLabel{
+  font-size: 1em;
+}
+.interactiveButtonsInTitle{
+  display: flex;
+  gap: 10px;
+}
+.editProductFormEntry{
+  width: max(10vw, 150px);
+  height: 35px;
+  padding: 10px;
+}
+
+.editRequiredInMyProducts{
+  background: white;
+  border: 2px solid darkgray;
+  box-shadow: 5px 10px 18px black;
+  opacity: 1;
+  padding: 20px;
+}
+.editRequiredInMyProducts:active{
+  border: 2px solid black;
+}
+.editBtnAdmin:hover, .deleteBtnAdmin:hover{
+  opacity: 0.6;
+}
+.editBtnAdmin:active, .deleteBtnAdmin:active{
+  opacity: 0.4;
+}
+.NameDisplayDiv{
+ text-align: center;
+ font-size: 2em;
+ font-weight: bold;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-top:20px;
+ margin-bottom: 20px;
+}
+.productItemImageInUDFrame{
+  width: 50px;
+  height: 50px;
+}
+.imageDisplayDiv{
+  display: flex;
+  gap: 20px;
+}
+.plusIconInDisplayAllImages{
+  zoom: 150%;
+}
+.plusIconInDisplayAllImagesContainer{
+  border: 2px solid black;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  padding:10px;
+}
+.plusIconInDisplayAllImages:hover{
+  opacity: 0.6;
+  cursor: pointer;
+}
+.plusIconInDisplayAllImages:active{
+  opacity: 0.4;
+}

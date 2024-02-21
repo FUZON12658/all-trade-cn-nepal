@@ -1,0 +1,127 @@
+.userDashboardFullContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  height:80vh;
+}
+.userDashboardContainer{
+  padding: 50px 50px 50px 50px;
+  border: 2px solid black;
+}
+
+.detailsPanel{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.detailsTitle{
+  text-align: center;
+}
+
+.dashboard_txt_field{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.label_for_txt_field{
+  font-weight: bold;
+  font-size: 20px;
+  text-wrap: nowrap;
+}
+
+.input_for_txt_field{
+  width: max(10vw, 200px);
+  height: 40px;
+  padding: 10px;
+}
+
+.formContainer{
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.editButton{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.editButton input{
+  background: black;
+  padding: 15px 15px;
+  color: white;
+  border-radius: 30px;
+  
+  font-size: 1em;
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1400px) {
+  .userDashboardFullContainer{
+    margin-bottom: 500px;
+  }
+}
+
+@media screen and (max-height: 1000px) {
+  .userDashboardFullContainer{
+    margin-top: 100px;
+    margin-bottom: 500px;
+  }
+}
+
+@media screen and (max-width: 1050px){
+  .userDashboardFullContainer{
+    margin-top: 200px;
+    margin-bottom: -400px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .label_for_txt_field{
+    font-size: 15px;
+  }
+  .input_for_txt_field{
+    height: 30px;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .userDashboardFullContainer{
+    align-items: center;
+    justify-content: center;
+    height:40vh;
+  }
+
+  .detailsTitle{
+    font-size: 18px;
+  }
+  .userDashboardContainer{
+    padding: 50px 10px 50px 10px;
+    border: 2px solid black;
+  }
+  .label_for_txt_field{
+    font-size: 12px;
+  }
+  .input_for_txt_field{
+    width: 160px;
+    height: 30px;
+    padding: 10px;
+  }
+
+  .editButton input{
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .input_for_txt_field{
+    width: 140px;
+  }
+}

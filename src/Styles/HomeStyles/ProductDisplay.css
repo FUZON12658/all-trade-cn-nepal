@@ -1,0 +1,31 @@
+.homePageProductsViewer{
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+.searchBarName{
+  text-align: center;
+}
+.Quick_Links_Product_Display{
+  margin-top: 100px;
+}
+.headingsH1ProductDisplay{
+  color: black;
+  text-align: center;
+}
+.Quick_Links_Body_Product_Display{
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  font-size: 26px;
+  margin-top: 50px;
+}
+.productDisplayLinkChild{
+  color:black;
+  text-decoration: none;
+}
+.productDisplayLinkChild:hover{
+  color: yellowgreen;
+}
+.quickLinksUl,.quickLinksUlTwo{
+  list-style: none;
+}

@@ -1,0 +1,52 @@
+.alert{
+  display: block;
+  width: max(40vw, 300px);
+  height: 100px;
+  position: relative;
+}
+.alertContainer.none{
+  display: none;
+}
+
+.xmark-pos{
+  margin: 5px;
+}
+.xmark-pos:hover{
+  opacity: 0.7;
+}
+.xmark-pos:active{
+  opacity: 0.4;
+}
+.xmark-pos:disabled{
+  display: none;
+}
+.alertContainer{
+  text-align: center;
+  text-justify: center;
+  display: flex;
+  border-radius: 5px;
+}
+.alertContainerMain{
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+.alertContainer.danger{
+  background: rgb(244, 146, 146);
+  border:3px solid red;
+}
+.title.danger{
+  color: red;
+}
+.alertContainer.success{
+  background: lightgreen;
+  border:3px solid green;
+}
+.title.success{
+  color:green;
+}
+.body{
+  color: black;
+  font-size: max(18px, 1rem);
+}

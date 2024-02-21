@@ -1,0 +1,152 @@
+.cartBlockContainer{
+  margin-top: 200px;
+  display:grid;
+  grid-template-columns: 1fr;
+  row-gap: 30px;
+  margin-bottom: 400px;
+}
+
+.cartBlockImage{
+  width: 200px;
+  height: 140px;
+}
+
+.cartBlockPictureDiv{
+  margin:auto;
+  margin-left: 50px;
+}
+.individualCartBlock{
+  display:flex;
+  box-shadow: 5px 10px 18px black ;
+  border-radius: 10px;
+  margin-top: 0px;
+  gap: 200px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-wrap:nowrap;
+}
+
+.quantityInputCart{
+  width: 40px;
+}
+
+
+.interactiveButtons{
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: 100px;
+  justify-content: center;
+  row-gap: 10px;
+}
+
+.proceedToCheckoutBtn{
+  margin-top: 10px;
+  background: black;
+  padding: 15px 15px;
+  color: white;
+  border-radius: 30px;
+  
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.proceedToCheckoutBtn:active{
+  background:white;
+  color: black;
+}
+
+.editCart, .deleteCart{
+  cursor:pointer;
+}
+
+.editCart:hover, .deleteCart:hover{
+  opacity: 0.6;
+}
+
+.deleteCart:active, .editCart:active{
+  opacity: 0.4;
+}
+
+.interactiveBtnsCartBlock{
+  display: flex;
+  gap: 10px;
+}
+
+.informationOfUser{
+  margin-right: 50px;
+}
+@media screen and (max-width: 1030px) {
+  .individualCartBlock{
+    gap: 75px;
+  }
+  .informationOfUser{
+    margin-right: 5px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .individualCartBlock{
+    gap: 50px;
+  }
+  .informationHeading{
+    font-size: 15px;
+  }
+  .informationOfProduct{
+    font-size: 13px;
+  }
+  .proceedToCheckoutBtn{
+    font-size: 13px;
+    padding: 10px 10px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .interactiveButtons{
+    margin-right: 50px;
+  }
+  .individualCartBlock{
+    gap: 25px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .interactiveButtons{
+    margin-right: 50px;
+  }
+  .individualCartBlock{
+    flex-direction: column;
+    padding: 10px 100px 10px 100px;
+  }
+  .cartBlockPictureDiv{
+    margin:auto;
+  }
+
+  .interactiveButtons{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .individualCartBlock{
+    flex-direction: column;
+    padding: 10px 50px 10px 50px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .individualCartBlock{
+    flex-direction: column;
+    padding: 10px 20px 10px 20px;
+  }
+}
+

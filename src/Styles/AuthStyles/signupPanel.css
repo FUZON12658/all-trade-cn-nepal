@@ -1,0 +1,18 @@
+/*go to adminLoginPanel.css for the styles that are not styled here*/
+.alertMessageSignup{
+  display: block;
+  margin-top: 150px;
+  width: 40vw;
+  height:100px;
+}
+
+.signupPanelFullContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.signUpBodyContainer{
+  margin-top: 150px;
+}

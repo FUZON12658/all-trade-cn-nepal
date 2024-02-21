@@ -1,0 +1,229 @@
+.welcomeScreen{
+  width: 100vw;
+  min-height: 78vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.welcomeMessage{
+ font-size: 8rem;
+ font-weight: bold;
+ white-space: nowrap;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.contentManagementSystemTitle{
+  font-size: 6rem;
+  font-weight: bold;
+  white-space: nowrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.messageToUser{
+  margin-left: auto;
+  margin-right: auto;
+  white-space: nowrap;
+  font-size: 4rem;
+}
+
+.messageToUserSecond{
+  margin-left: auto;
+  margin-right: auto;
+  white-space: nowrap;
+  font-size: 4rem;
+}
+
+.FindUsAt{
+  display: inline-flex;
+  height: 110px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.socialIconsDashboard{
+  display: flex;
+  width: 100px;
+  height: 100px;
+  margin-left: 10px;
+  filter: grayscale(100%);
+}
+
+.twitter{
+  opacity: 60%;
+  width: 95px;
+  height: 95px;
+}
+
+.twitter:hover{
+  opacity: 100%;
+}
+.socialIconsDashboard:hover{
+  filter: none;
+  transform: rotate(345deg);
+}
+
+@media screen and (max-height: 1200px){
+  .welcomeScreen{
+    margin-top: 150px;
+  }
+}
+@media screen and (max-height: 750px){
+  .welcomeScreen{
+    margin-top: 200px;
+  }
+}
+
+@media screen and (max-height: 550px){
+  .welcomeScreen{
+    margin-top: 700px;
+  }
+}
+
+@media screen and (max-height: 480px){
+  .welcomeScreen{
+    margin-top: 900px;
+  }
+}
+@media screen and (max-width: 1200px){
+  .welcomeScreen{
+    margin-top: 150px;
+  }
+}
+
+@media screen and (max-width: 900px){
+  .welcomeScreen{
+    min-height: 60vh;
+  }
+}
+@media screen and (max-width: 1599px){
+  .welcomeMessage{
+    font-size: 6rem;
+  }
+  .contentManagementSystemTitle{
+    font-size: 4rem;
+  }
+
+  .messageToUser{
+    font-size: 2rem;
+  }
+  
+  .messageToUserSecond{
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 1089px){
+  .welcomeMessage{
+    font-size: 5rem;
+  }
+  .contentManagementSystemTitle{
+    font-size: 3rem;
+  }
+
+  .messageToUser{
+    font-size: 1.5rem;
+  }
+  
+  .messageToUserSecond{
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 838px){
+  .welcomeMessage{
+    font-size: 4rem;
+  }
+  .contentManagementSystemTitle{
+    font-size: 2rem;
+  }
+
+  .messageToUser{
+    font-size: 1.5rem;
+  }
+  
+  .messageToUserSecond{
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 658px){
+  .welcomeMessage{
+    font-size: 3rem;
+  }
+  .contentManagementSystemTitle{
+    font-size: 2rem;
+  }
+
+  .messageToUser{
+    font-size: 1.5rem;
+  }
+  
+  .messageToUserSecond{
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 550px){
+  .welcomeMessage{
+    font-size: 2rem;
+  }
+  .contentManagementSystemTitle{
+    font-size: 1.5rem;
+  }
+
+  .messageToUser{
+    font-size: 1rem;
+  }
+  
+  .messageToUserSecond{
+    font-size: 1rem;
+  }
+
+  .socialIconsDashboard{
+    width: 50px;
+    height: 50px;
+  }
+  
+  .twitter{
+    width: 45px;
+    height: 45px;
+  }
+
+  .socialIconsDashboard:hover{
+    filter: none;
+  }
+  
+  .twitter:hover{
+    opacity: 0;
+  }
+}
+
+@media screen and (max-width: 400px){
+  .welcomeMessage{
+    font-size: 1.5rem;
+  }
+  .contentManagementSystemTitle{
+    font-size: 1rem;
+  }
+
+  .messageToUser{
+    font-size: .5rem;
+  }
+  
+  .messageToUserSecond{
+    font-size: .5rem;
+  }
+
+  .FindUsAt{
+    margin-top: 20px;
+  }
+  .socialIconsDashboard{
+    margin-left: 4px;
+  }
+}
+
+
+

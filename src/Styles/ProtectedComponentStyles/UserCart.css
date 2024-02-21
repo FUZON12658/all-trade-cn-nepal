@@ -1,0 +1,26 @@
+.cartBlockContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 38vh;
+}
+
+.alertMessageCart{
+  display: block;
+  width: 40vw;
+  height:100px;
+  text-align: center;
+  align-items: center;
+}
+
+.cartPageTitle{
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+}
+.emptyMessage{
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+}
